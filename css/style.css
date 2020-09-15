@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+}
+.header{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    background: gray;
+}
+
+.header i{
+    margin-right:15px ;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style-type:none ;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color:rgba(3, 3, 3, 0.596);
+    margin-left: 32px;
+}
+
+.seccion1 {
+    border: 1px solid red;
+}
